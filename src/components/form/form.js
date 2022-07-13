@@ -23,7 +23,7 @@ const Form = () => {
         <input placeholder='Weight (/kg)'  {...register("weight", { required: true })} />
 
         <input placeholder='Height (/m)' {...register("height", { required: true })} />
-        <input type="submit" />
+        <input type="submit" value={'Submit'} />
     </form>);
 }
 
